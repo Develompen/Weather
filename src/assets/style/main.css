@@ -1,0 +1,75 @@
+@import url(./fonts.css);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+}
+
+.container {
+    padding: 0 15px;
+    width: 100%;
+    max-width: 1230px;
+    margin: 0 auto;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+input, button {
+    background: none;
+    border: none;
+    outline: none;
+}
+
+body.default {
+    transition: .5s;
+    background-color: white;
+}
+  
+body.dark {
+    transition: .5s;
+    background: rgba(0, 0, 0, 0.61);
+}
+
+body.dark .nav__input::placeholder {
+    transition: .5s;
+    color: #fff;
+}
+
+.shadow {
+    transition: .5s;
+    text-shadow: 0 -3px 9px #a5a5a5;
+}
+
+.shadow_img {
+    transition: .5s;
+    filter: drop-shadow(0 0 10px #a5a5a5);
+}
+
+.blue {
+    transition: .5s;
+    box-shadow: 2px 2px 10px 5px rgba(180, 180, 180, 0.25);
+    background: #4793ff;
+    color: #fff;
+}
+
+.text_white {
+    transition: .5s;
+    color: #fff;
+}
+
+.shadov_black {
+    transition: .5s;
+    background: #4F4F4F;
+}

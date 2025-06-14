@@ -1,0 +1,120 @@
+.main {
+    display: flex;
+    gap: 47px;
+}
+
+.weather-today__container {
+    transition: .6s;
+    max-width: max-content !important;
+    display: flex;
+    flex-direction: column;
+    gap: 31px;
+    padding: 20px !important;
+    border-radius: 20px;
+    fill: #fff;
+    box-shadow: 2px 5px 25px 0 rgba(180, 180, 180, 0.25);
+}
+
+.weather-today__card {
+    display: flex;
+    align-items: center;
+    gap: 67px;
+}
+
+.weather-today__temperature {
+    transition: .5s;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 96px;
+    color: #4793ff;
+}
+
+.weather-today__label { 
+    transition: .5s;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 40px;
+    color: #000;
+}
+
+.weather-info__list {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.info-list__link {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 25px;
+    color: #939cb0;
+}
+
+.today-weather__info {
+    transition: .6s;
+    display: flex;
+    padding: 42px 28px;
+    gap: 37px;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 20px;
+    box-shadow: 2px 5px 25px -3px rgba(180, 180, 180, 0.25);
+    background: #fff;
+    min-width: 750px;
+}
+
+.today-weather__item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px; 
+}
+
+.weather-item__list {
+    display: flex;
+    align-items: center;    
+    gap: 26px;
+}
+
+.today-weather__information {
+    display: flex;
+    flex-direction: column;
+    gap: 44px;
+}
+
+.weather-item__list img {
+    border-radius: 100%;
+    fill: #fff;
+    box-shadow: 1px 4px 10px -1px rgba(71, 147, 255, 0.2);
+}
+
+.temperature {
+    padding: 7px 12px;
+}
+
+.pressure {
+    padding: 9px 10px;
+}
+
+.precipitation {
+    padding: 10px;
+}
+
+.wind {
+    padding: 10px 9px;
+}
+
+.today-weather__title {
+    font-family: var('Montserrat');
+    font-weight: 400;
+    font-size: 14px;
+    color: #939cb0;
+}
+
+.weather__paragrf   { 
+    transition: .5s;
+    font-family: var('Montserrat');
+    font-weight: 400;
+    font-size: 14px;
+    color: #000;
+}
