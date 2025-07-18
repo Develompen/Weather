@@ -1,9 +1,13 @@
 .main {
     display: flex;
-    gap: 47px;
+	gap: 45px;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
 }
 
 .weather-today__container {
+	background: #fff;
     transition: .6s;
     max-width: max-content !important;
     display: flex;
@@ -60,7 +64,8 @@
     border-radius: 20px;
     box-shadow: 2px 5px 25px -3px rgba(180, 180, 180, 0.25);
     background: #fff;
-    min-width: 750px;
+	width: 100%;
+    max-width: 750px; 
 }
 
 .today-weather__item {

@@ -70,6 +70,5 @@ body.dark .nav__input::placeholder {
 }
 
 .shadov_black {
-    transition: .5s;
     background: #4F4F4F;
 }

@@ -2,21 +2,25 @@
     margin-top: 91px;
     scroll-snap-type: x mandatory;
 }
-/* box-shadow: 2px 5px 25px 0 rgba(180, 180, 180, 0.25); */
+
 .footer-content__container {
     transition: .5s;
-    flex: 0 0 auto; 
-    width: 120px;   
+	width: 100%;
+    flex: 0 0 auto;  
     scroll-snap-align: start; 
     border-radius: 0 0 20px 20px;
-    min-width: 1200px;
-    min-height: 240px;
+    max-width: 1200px;
     box-shadow: 2px 5px 25px -3px rgba(180, 180, 180, 0.25);
     background: #fff;
     padding: 20px;
-    display: flex;
+}
+
+.scroll {
+	transition: .5s;
+	width: 100%;
+	max-width: 1200px;
+	display: flex;
     gap: 20px;
-    
 }
 
 .footer-content__card {

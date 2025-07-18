@@ -8,9 +8,11 @@ const WeatherWeek = ({ daily, darkMode }) => {
         <footer className="footer">
             <div className="footer__content container">
                 <div className={`footer-content__container  ${darkMode ? 'shadov_black' : ''}`}>
-                    {nextDays.map((day, index) => (
-                        <WeatherWeekItem darkMode = {darkMode} key={index} day={day} />
-                    ))}
+					<div className="scroll">
+						{nextDays.map((day, index) => (
+							<WeatherWeekItem darkMode = {darkMode} key={index} day={day} />
+						))}
+					</div>
                 </div>
             </div>
         </footer>

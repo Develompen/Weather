@@ -7,7 +7,7 @@ import wind from '../../assets/icons/wind.svg';
 const TodayWeatherInfo = ({data, darkMode}) => {
     return (
         <section className="section">
-            <div className="today-weather container">
+            <div className="today-weather">
                 <div className={`today-weather__info ${darkMode ? 'shadov_black' : ''}`}>
                     <div className="today-weather__item">
                         <div className="weather-item__list">

@@ -1,4 +1,5 @@
 .nav__content {
+	gap: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
